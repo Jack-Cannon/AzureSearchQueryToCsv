@@ -10,10 +10,10 @@ key = "your query key"
 search_filter = "your search filter"
 select = ["your select list"]
 
-# Get the service endpoint and API key from the environment
+# create service endpoint 
 endpoint = f"https://{search_service_name}.{search_dns_suffix}"
 
-# Create a client
+# create a client
 credential = AzureKeyCredential(key)
 client = SearchClient(endpoint=endpoint,
                       index_name=index_name,
