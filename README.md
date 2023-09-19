@@ -1,9 +1,9 @@
 # AzureSearchQueryToCsv
 
-# description
+## Description
 Python script to connnect to an Azure Search Service and load a query to a local csv file
 
-# local setup
+## Local setup
 - clone repo
 - replace variables at top of file with your Search Service information
 - create local `assets.csv` file
