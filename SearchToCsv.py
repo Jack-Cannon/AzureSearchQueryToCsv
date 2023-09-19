@@ -19,6 +19,7 @@ client = SearchClient(endpoint=endpoint,
                       index_name=index_name,
                       credential=credential)
 
+# query search service
 results = client.search(search_text="*", include_total_count=True, filter=search_filter, select=select)
 
 print(f"Search Count: {results.get_count()}")
